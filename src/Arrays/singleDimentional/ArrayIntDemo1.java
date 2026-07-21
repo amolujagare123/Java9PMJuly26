@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.singleDimentional;
 
 public class ArrayIntDemo1 {
 
