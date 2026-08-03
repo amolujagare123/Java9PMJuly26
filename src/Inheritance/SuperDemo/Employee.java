@@ -1,6 +1,6 @@
 package Inheritance.SuperDemo;
 
-public class Employee {
+public /*final*/ class Employee {
 
     int salary = 50000;
 
@@ -21,7 +21,7 @@ public class Employee {
         System.out.println("Employee Constructor a="+a);
     }
 
-    void display()
+    /*final*/ public void display()
     {
         System.out.println("salary="+salary);
     }
@@ -39,7 +39,7 @@ class Tester extends Employee
     }
 
   //  @Override
-    void display()
+    public void display()
     {
         System.out.println("bonus="+bonus);
     }
